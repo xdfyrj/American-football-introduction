@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>사진 페이지</title>
+    <style>
+        /* 페이지 스타일 */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center; /* 페이지의 정 중앙에 정렬됨 */
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .image-container {
+            max-width: 800px;
+            max-height: 600px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto; /* 가운데 정렬 */
+        }
+    </style>
+</head>
+<body>
+<div class="image-container">
+    <img src="../rugby.png" alt="사진">
+</div>
+
+<script>
+    document.addEventListener('keypress', function (event) {
+        if (event.code === 'Space') {
+            window.location.href = 'diff2.html'; // 다음 페이지의 URL로 이동
+        }
+    });
+</script>
+
+</body>
+</html>

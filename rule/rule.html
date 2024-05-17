@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미식축구의 자세한 설명</title>
+    <style>
+        body {
+            font-family: "Freesentation-9Black", sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 0;
+            text-align: center; /* body 내 모든 텍스트 중앙 정렬 */
+        }
+        h1 {
+            font-size: 80px;
+        }
+        h2 {
+            font-size: 50px;
+        }
+        h3 {
+            font-size: 40px;
+        }
+        p {
+            font-size: 40px;
+            margin: auto;
+        }
+        span {
+            color: #007bff;
+            font-weight: bold;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .subsection {
+            margin-top: 15px;
+        }
+        @font-face {
+            font-family: 'Freesentation-9Black';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+            font-weight: 900;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+<h1>미식축구의 자세한 설명</h1>
+<span></span>
+<div class="section">
+    <h2 style="font-weight: bold">미식축구의 구장</h2>
+    <p>약 가로 <span>120야드</span>(약 110m), 세로 <span>53.3야드</span>(약 48m)</p>
+    <p>엔드존을 제외한 플레이 지역은 <span>1야드</span>(약 1미터)마다 <span>해쉬마크</span>로 구분</p>
+    <p><span>골대</span>는 높이 약 <span>6m</span>, 너비 약 <span>7m</span>로 엔드존 가운데에 위치</p>
+    <img src="../field.jpg" alt="사진">
+</div>
+
+<div class="section">
+    <h2>미식축구의 룰</h2>
+    <div class="subsection">
+        <h3>1. 팀과 게임 시간</h3>
+        <p>양팀당 <span>11명</span>씩 나와 <span>15분</span>씩 <span>4쿼터</span> 진행</p>
+    </div>
+    <div class="subsection">
+        <h3>2. 다운</h3>
+        <p>상대 진형으로 <span>전진</span>하기 위한 <span>전략 게임</span></p>
+        <p>다운 = 기회</p>
+        <p>공격팀은 4번의 다운 기회동안 공을 전진 시켜야함</p>
+    </div>
+    <div class="subsection">
+        <h3>3. 득점</h3>
+        <p>엔드존 도달 = <span>터치다운</span>, <span>6점</span>을 받음</p>
+        <img src="../touchdown.jpg" alt="사진">
+    </div>
+    <div class="subsection">
+        <h3>4. 필드킥(보너스 킥)</h3>
+        <p>터치다운 후 하는 <span>킥</span></p>
+        <p>골대에 <span>골</span>을 넣으면 <span>+a</span>의 점수를 받음</p>
+        <img src="../kick.webp" alt="사진">
+    </div>
+    <div class="subsection">
+        <h3>5. 디펜스</h3>
+        <p>수비 팀은 터치다운을 <span>막거나</span> 상대팀의 진행을 <span>중지</span>시키는 것이 목표</p>
+        <img src="../defense.webp" alt="사진">
+    </div>
+</div>
+
+<script>
+    document.addEventListener('keypress', function (event) {
+        if (event.code === 'Space') {
+            window.location.href = '../popu/popu.html'; // 다음 페이지의 URL로 이동
+        }
+    });
+</script>
+
+</body>
+</html>

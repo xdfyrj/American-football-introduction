@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>럭비 vs 미식축구</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 20px;
+            font-family: 'Freesentation-9Black', sans-serif;
+        }
+        .left-column, .right-column {
+            width: 45%;
+        }
+        h2 {
+            font-size: 80px;
+            margin-top: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: 500px;
+            display: block;
+            margin: 0 auto;
+        }
+        p {
+            font-size: 40px;
+            line-height: 1.6;
+        }
+        @font-face {
+            font-family: 'Freesentation-9Black';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+            font-weight: 900;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="left-column">
+        <h2>럭비</h2>
+        <p>헬멧, 어깨 보호대 등의 장비 X</p>
+        <p>몸싸움 허용 X</p>
+        <p>매너를 중요하게 생각</p>
+    </div>
+    <div class="right-column">
+        <h2>미식축구</h2>
+        <p>헬멧, 어깨 보호대 등의 장비 O</p>
+        <p>몸싸움 허용 O(보호대 착용으로 부상 적음)</p>
+        <p>럭비와 달리 전문적인 역할군 O</p>
+    </div>
+</div>
+
+<img src="../Rugby.jpg" alt="Image Description">
+
+<script>
+    document.addEventListener('keypress', function (event) {
+        if (event.code === 'Space') {
+            window.location.href = '../rule/rule.html'; // 다음 페이지의 URL로 이동
+        }
+    });
+</script>
+
+</body>
+</html>
