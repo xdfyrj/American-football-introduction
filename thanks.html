@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>감사합니다!</title>
+    <style>
+        body {
+            font-family: "Freesentation-9Black", sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* 페이지 너비를 벗어나는 부분 숨김 */
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            font-size: 100px;
+            animation: explode 5s ease-out forwards; /* explode 애니메이션 적용 및 지속 시간 조정 */
+        }
+        #drawing_canvas {
+            position: absolute;
+            margin: auto;
+            width: 512px;
+            height: 350px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        @keyframes explode {
+            0% {
+                transform: scale(1);
+            }
+            100% {
+                transform: scale(10);
+                opacity: 0;
+            }
+        }
+        @font-face {
+            font-family: 'Freesentation-9Black';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2') format('woff2');
+            font-weight: 900;
+            font-style: normal;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>감사합니다!</h1>
+</div>
+</body>
+</html>
