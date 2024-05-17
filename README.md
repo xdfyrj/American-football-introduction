@@ -1,2 +1,2 @@
 # xdfyrj.github.io
-## This is American Football instroduction
+## This is American Football explanation
